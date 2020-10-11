@@ -2,8 +2,7 @@ package changes;
 
 public class Gerente {
 
-	// nome do metodo mais autoexplicativo
-	public String checaPrazo(Projeto p) {
+	public String checar(Projeto p) {
 		return p.checaPrazo();
 	}
 }
