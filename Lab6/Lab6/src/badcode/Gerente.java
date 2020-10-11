@@ -3,10 +3,6 @@ package badcode;
 import java.util.List;
 
 public class Gerente {
-	
-	public Gerente() {
-	};
-
 	public String checar(Projeto p) {
 		// verifica prazo do projeto
 		if (p.d < 90) {
